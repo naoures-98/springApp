@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Hello world</title>
+</head>
+<body>
+<!-- ${#strings.capitalize (name)} : pour transformer le 1er caractère en majuscule  -->
+<h1 th:text="'Hello ' + ${#strings.capitalize (name)} + ' !' "> Hello naoures ! </h1>
+</body>
+</html>
